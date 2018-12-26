@@ -1,6 +1,6 @@
 $(function(){
     //make connection
- var socket = io.connect('http://localhost:3000' || process.env.PORT || 'https://simplechatappmachar.herokuapp.com/')
+ var socket = io.connect('http://localhost:3000' || process.env.PORT || 'https://simplechatappmachar.herokuapp.com')
 
  //buttons and inputs
  var message = $("#message")
