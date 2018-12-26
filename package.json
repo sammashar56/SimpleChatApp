@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "express": "*",
+    "nodemon":"*",
     "socket.io": "*",
     "ejs": "*"
   },
