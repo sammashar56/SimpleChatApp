@@ -13,7 +13,7 @@ app.get('/', (req, res)=>{
 })
 
 //litsen to port 3000
-var port_number = server.listen(process.env.PORT || 3000);
+var port_number = app.listen(process.env.PORT || 3000);
 server = app.listen(port_number)
 
 //socket.io instantiation
